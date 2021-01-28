@@ -4,11 +4,13 @@ import IconSearch from './components/Search';
 
 function App() {
   return (
-    <>
-    <Logo />
-    <IconSearch />
+  <>
+    <Header >
+      <Logo />
+      <IconSearch />
+    </Header> 
     <Filter/>
-    </>
+  </>
   );
 }
 
