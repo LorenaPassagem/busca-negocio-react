@@ -1,9 +1,9 @@
 import Logo from './components/Logo';
-import Filter from './components/Filter';
 import IconSearch from './components/Search';
 import Header from './components/Header';
 import { createGlobalStyle } from 'styled-components';
-import GuiaTittle from './components/GuiaTittle';
+import { Filter, Label } from './components/Filter';
+import ServiceFilter from './components/ServiceFilter'
 
 const GlobalStyled = createGlobalStyle`
   
@@ -61,10 +61,12 @@ function App() {
     <Header >
       <Logo />
       <IconSearch />
-    </Header> 
-
-    <Filter/>
-    <GuiaTittle> Guia de serviços</GuiaTittle>
+    </Header>
+    
+	<ServiceFilter>
+    	<Filter/>
+		<Label> Guia de Serviço</Label>
+	</ServiceFilter>
 
     <GlobalStyled />
   </>
