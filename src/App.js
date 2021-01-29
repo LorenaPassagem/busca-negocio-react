@@ -3,6 +3,7 @@ import Filter from './components/Filter';
 import IconSearch from './components/Search';
 import Header from './components/Header';
 import { createGlobalStyle } from 'styled-components';
+import GuiaTittle from './components/GuiaTittle';
 
 const GlobalStyled = createGlobalStyle`
   
@@ -49,7 +50,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-`
+body{
+  background-color: #395164;
+}
+`;
 
 function App() {
   return (
@@ -58,7 +62,10 @@ function App() {
       <Logo />
       <IconSearch />
     </Header> 
+
     <Filter/>
+    <GuiaTittle> Guia de serviços</GuiaTittle>
+
     <GlobalStyled />
   </>
   );
