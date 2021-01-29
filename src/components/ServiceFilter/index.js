@@ -1,7 +1,14 @@
-import styled from 'styled-components'
+import React from 'react'
+import { Filter, Label } from '../Filter';
+import ServiceFilterStyle from './styles';
 
-const ServiceFilter = styled.nav`
-    background-color: #3a4042;
-`;
 
+function ServiceFilter() {
+ return(
+    <ServiceFilterStyle>
+        <Filter/>
+        <Label> Guia de Serviço</Label>
+    </ServiceFilterStyle>
+ )
+}
 export default ServiceFilter;
