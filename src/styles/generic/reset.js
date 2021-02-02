@@ -45,8 +45,5 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body{
-  background-color: #395164;
-}
 `;
 export default Reset;
