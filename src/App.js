@@ -15,9 +15,6 @@ function App() {
     </Header>
 
     <ServiceFilter />
-	
-	<Reset />
-  <Base />
   </>
   );
 }
