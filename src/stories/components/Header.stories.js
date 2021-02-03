@@ -1,5 +1,4 @@
 import React from 'react'
-import { Component } from 'react'
 
 import Header from '../../components/Header'
 import Logo from '../../components/Logo'
