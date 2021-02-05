@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Filter} from '../../components/Filter';
+import { Filter } from '../../components/Filter';
 
 export default {
     title: 'Components/Filter',
