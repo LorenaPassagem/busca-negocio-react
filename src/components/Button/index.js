@@ -1,8 +1,9 @@
-import styled from 'styled-components'
+import React from 'react'
+import ButtonStyles from './styles'
 
-export const Button = styled.button`
-    background-color: #f25a70;
-    border-style: none;
-    padding: var(--spacing-small);
-    width:350px;
-`
+function Button() {
+return ( 
+    <ButtonStyles> insira seu negocio aqui </ButtonStyles> 
+ )
+}
+export default Button;
