@@ -13,7 +13,7 @@ function App() {
     </Header>
     
     <ServiceFilter />
-    <Button> Insira seu negocio</Button>
+    <Button /> 
   </>
   );
 }
