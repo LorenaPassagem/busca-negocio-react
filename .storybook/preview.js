@@ -3,9 +3,8 @@ import Styles from '../src/styles';
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
-
+  layout: 'fullscreen',
   backgrounds: {
-    layout: 'fullscreen',
     default: 'dark',
     values: [
       {
