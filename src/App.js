@@ -3,6 +3,7 @@ import IconSearch from './components/Search';
 import Header from './components/Header';
 import ServiceFilter from './components/ServiceFilter'
 import Button from './components/Button';
+import CardService from './components/CardService';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     </Header>
     
     <ServiceFilter />
+    <CardService />
     <Button /> 
   </>
   );
