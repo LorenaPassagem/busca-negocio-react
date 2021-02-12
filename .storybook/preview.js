@@ -1,10 +1,11 @@
 import React from 'react';
-import Gap from '../src/settings/Spacing';
+import Styles from '../src/styles';
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
 
   backgrounds: {
+    layout: 'fullscreen',
     default: 'dark',
     values: [
       {
@@ -19,7 +20,7 @@ export const parameters = {
 export const decorators = [
   Story => (
     <>
-      <Gap />
+      <Styles />
       <Story />
     </>
    )
